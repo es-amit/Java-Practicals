@@ -82,7 +82,7 @@ public class Calculator implements ActionListener{
         div.setFont(f);
         mul.setBackground(Color.red);
         mul.setFont(f);
-        eql.setBackground(Color.YELLLOW);
+        eql.setBackground(Color.YELLOW);
         eql.setFont(f);
         clr.setBackground(Color.white);
         clr.setFont(f);
@@ -164,7 +164,7 @@ public class Calculator implements ActionListener{
                 //handled exception
             }
         }
-        else if(str.equals("Clr")){
+        else if(str.equals("C")){
             t.setText("");
             a=b=0;
             msg="";
